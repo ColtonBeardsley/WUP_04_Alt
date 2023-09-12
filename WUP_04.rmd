@@ -76,3 +76,5 @@ Looking at the final plot, we can see that there is a difference at zero between
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+After running this statistical data, there are no differences between the WORDSUM test of Black race and Other race as well as The White race and Black race. There is a significant difference between White race and Other, due to our P value resulting in a score that is between the White and Other races. This proves our conclusion for $Ha$.
