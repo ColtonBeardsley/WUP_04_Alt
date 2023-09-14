@@ -51,7 +51,7 @@ basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
   
-By lookin at the box plot graph, its not clear enough if there is a significant difference between the WHITE and OTHER races. It is also not clear enough if there is a difference between the BLACK and OTHER races.
+By looking at the box plot graph, its not clear enough if there is a significant difference between the WHITE and OTHER races. It is also not clear enough if there is a difference between the BLACK and OTHER races.
   
 # Numerical results
 
@@ -65,7 +65,7 @@ favstats(WORDSUM~RACE,data=mydata)
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-The data that resulted from the 
+Looking at the favstats, the average and mean between between BLACK and WHITE are very close, however the mean value for the OTHER race has a lower value meaning that there is a difference between the OTHER and both the WHITE and BLACK data sets.
 
 ## Inferential Results
 
