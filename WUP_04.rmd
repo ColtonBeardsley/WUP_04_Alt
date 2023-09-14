@@ -26,6 +26,13 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Mention that you intend to use chatGPT to the greatest extent possible. Give credit to chatGPT when you use it to create code in your report. Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+```{r eval=FALSE}
+mydata <- mydata %>%
+mutate(across(where(is.character), as.factor))
+```
+
+We have changed all of the character variables into factor variables. The type of problem here needs a numerical variable called WORDSUM and a factor variable called RACE. We will make use of helper files to help complete the analysis of Numerical and factorial variables.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -55,6 +62,8 @@ favstats(WORDSUM~RACE,data=mydata)
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+The data that resulted from the 
 
 ## Inferential Results
 
